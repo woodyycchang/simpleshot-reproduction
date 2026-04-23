@@ -67,7 +67,7 @@ Our absolute accuracy is consistently 1–3% below the paper. This matches [Issu
 
 All pretrained checkpoints (`epoch_best.pth` and `epoch_90.pth` for every model) and the miniImageNet pickle files are hosted on Google Drive:
 
-📂 **[Download all resources](https://drive.google.com/drive/folders/1juXTTaoG5aqjIFmnaDSJLed5es5qT78a?usp=drive_link)**
+📂 **[All resources](https://drive.google.com/drive/folders/1juXTTaoG5aqjIFmnaDSJLed5es5qT78a?usp=drive_link)**
 
 Dataset source: [whitemoon/miniimagenet on Kaggle](https://www.kaggle.com/datasets/whitemoon/miniimagenet).
 
