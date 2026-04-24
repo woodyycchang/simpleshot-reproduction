@@ -1,0 +1,785 @@
+SimpleShot Reproduction - Full Training Logs
+miniImageNet, 4 backbones, 90 epochs each
+=======================================================================================
+
+
+============================================================
+MODEL: conv4
+============================================================
+  Training conv4 for 90 epochs...
+  Parameters: 215,552, Feature dim: 1600
+  step 100/150  loss=3.5054
+  Epoch 1: loss=3.7238, acc=0.1231, lr=0.10000
+  step 100/150  loss=3.1353
+  Epoch 2: loss=3.2112, acc=0.1972, lr=0.10000
+  step 100/150  loss=2.8248
+  Epoch 3: loss=2.9982, acc=0.2444, lr=0.10000
+  step 100/150  loss=2.7232
+  Epoch 4: loss=2.8460, acc=0.2790, lr=0.10000
+    Val 1-shot L2N: 37.68%
+    Best so far: epoch 4, acc 37.68%
+  step 100/150  loss=2.7849
+  Epoch 5: loss=2.7401, acc=0.3039, lr=0.10000
+  step 100/150  loss=2.5935
+  Epoch 6: loss=2.6658, acc=0.3189, lr=0.10000
+  step 100/150  loss=2.3508
+  Epoch 7: loss=2.5933, acc=0.3389, lr=0.10000
+  step 100/150  loss=2.3379
+  Epoch 8: loss=2.5361, acc=0.3473, lr=0.10000
+    Val 1-shot L2N: 39.22%
+    Best so far: epoch 8, acc 39.22%
+  step 100/150  loss=2.6369
+  Epoch 9: loss=2.5069, acc=0.3553, lr=0.10000
+  step 100/150  loss=2.3685
+  Epoch 10: loss=2.4461, acc=0.3693, lr=0.10000
+  step 100/150  loss=2.4048
+  Epoch 11: loss=2.4199, acc=0.3735, lr=0.10000
+  step 100/150  loss=2.3438
+  Epoch 12: loss=2.3877, acc=0.3799, lr=0.10000
+    Val 1-shot L2N: 40.34%
+    Best so far: epoch 12, acc 40.34%
+  step 100/150  loss=2.4044
+  Epoch 13: loss=2.3304, acc=0.3951, lr=0.10000
+  step 100/150  loss=2.4881
+  Epoch 14: loss=2.3197, acc=0.3988, lr=0.10000
+  step 100/150  loss=2.3218
+  Epoch 15: loss=2.2741, acc=0.4071, lr=0.10000
+  step 100/150  loss=2.1200
+  Epoch 16: loss=2.2569, acc=0.4123, lr=0.10000
+    Val 1-shot L2N: 41.11%
+    Best so far: epoch 16, acc 41.11%
+  step 100/150  loss=2.3603
+  Epoch 17: loss=2.2380, acc=0.4157, lr=0.10000
+  step 100/150  loss=2.1726
+  Epoch 18: loss=2.2204, acc=0.4216, lr=0.10000
+  step 100/150  loss=2.2197
+  Epoch 19: loss=2.2093, acc=0.4237, lr=0.10000
+  step 100/150  loss=2.1586
+  Epoch 20: loss=2.1866, acc=0.4267, lr=0.10000
+    Val 1-shot L2N: 40.17%
+    Best so far: epoch 16, acc 41.11%
+  step 100/150  loss=2.1265
+  Epoch 21: loss=2.1701, acc=0.4320, lr=0.10000
+  step 100/150  loss=2.0881
+  Epoch 22: loss=2.1535, acc=0.4353, lr=0.10000
+  step 100/150  loss=2.3157
+  Epoch 23: loss=2.1398, acc=0.4383, lr=0.10000
+  step 100/150  loss=1.9680
+  Epoch 24: loss=2.1273, acc=0.4423, lr=0.10000
+    Val 1-shot L2N: 41.70%
+    Best so far: epoch 24, acc 41.70%
+  step 100/150  loss=2.0782
+  Epoch 25: loss=2.1071, acc=0.4455, lr=0.10000
+  step 100/150  loss=2.0446
+  Epoch 26: loss=2.1003, acc=0.4472, lr=0.10000
+  step 100/150  loss=2.1545
+  Epoch 27: loss=2.0903, acc=0.4482, lr=0.10000
+  step 100/150  loss=1.9897
+  Epoch 28: loss=2.0729, acc=0.4530, lr=0.10000
+    Val 1-shot L2N: 41.31%
+    Best so far: epoch 24, acc 41.70%
+  step 100/150  loss=1.9704
+  Epoch 29: loss=2.0626, acc=0.4543, lr=0.10000
+  step 100/150  loss=2.1034
+  Epoch 30: loss=2.0624, acc=0.4542, lr=0.10000
+  step 100/150  loss=2.1007
+  Epoch 31: loss=2.0655, acc=0.4564, lr=0.10000
+  step 100/150  loss=1.9604
+  Epoch 32: loss=2.0516, acc=0.4590, lr=0.10000
+    Val 1-shot L2N: 42.59%
+    Best so far: epoch 32, acc 42.59%
+  step 100/150  loss=2.0825
+  Epoch 33: loss=2.0391, acc=0.4612, lr=0.10000
+  step 100/150  loss=2.0914
+  Epoch 34: loss=2.0379, acc=0.4665, lr=0.10000
+  step 100/150  loss=2.0138
+  Epoch 35: loss=2.0230, acc=0.4668, lr=0.10000
+  step 100/150  loss=1.9893
+  Epoch 36: loss=2.0040, acc=0.4671, lr=0.10000
+    Val 1-shot L2N: 40.64%
+    Best so far: epoch 32, acc 42.59%
+  step 100/150  loss=2.0277
+  Epoch 37: loss=2.0052, acc=0.4670, lr=0.10000
+  step 100/150  loss=1.8913
+  Epoch 38: loss=1.9959, acc=0.4725, lr=0.10000
+  step 100/150  loss=2.0422
+  Epoch 39: loss=2.0003, acc=0.4723, lr=0.10000
+  step 100/150  loss=1.8991
+  Epoch 40: loss=1.9811, acc=0.4781, lr=0.10000
+    Val 1-shot L2N: 41.63%
+    Best so far: epoch 32, acc 42.59%
+  step 100/150  loss=1.9358
+  Epoch 41: loss=1.9960, acc=0.4732, lr=0.10000
+  step 100/150  loss=2.4145
+  Epoch 42: loss=1.9698, acc=0.4773, lr=0.10000
+  step 100/150  loss=1.9134
+  Epoch 43: loss=1.9704, acc=0.4810, lr=0.10000
+  step 100/150  loss=1.9739
+  Epoch 44: loss=1.9880, acc=0.4748, lr=0.10000
+    Val 1-shot L2N: 42.07%
+    Best so far: epoch 32, acc 42.59%
+  step 100/150  loss=2.0787
+  Epoch 45: loss=1.9719, acc=0.4777, lr=0.10000
+  step 100/150  loss=1.8116
+  Epoch 46: loss=1.8090, acc=0.5160, lr=0.01000
+  step 100/150  loss=1.7974
+  Epoch 47: loss=1.7637, acc=0.5290, lr=0.01000
+  step 100/150  loss=1.6445
+  Epoch 48: loss=1.7489, acc=0.5361, lr=0.01000
+    Val 1-shot L2N: 43.03%
+    Best so far: epoch 48, acc 43.03%
+  step 100/150  loss=1.7533
+  Epoch 49: loss=1.7533, acc=0.5304, lr=0.01000
+  step 100/150  loss=1.6398
+  Epoch 50: loss=1.7356, acc=0.5339, lr=0.01000
+  step 100/150  loss=1.7860
+  Epoch 51: loss=1.7429, acc=0.5337, lr=0.01000
+  step 100/150  loss=1.8845
+  Epoch 52: loss=1.7270, acc=0.5358, lr=0.01000
+    Val 1-shot L2N: 43.86%
+    Best so far: epoch 52, acc 43.86%
+  step 100/150  loss=1.6595
+  Epoch 53: loss=1.7145, acc=0.5386, lr=0.01000
+  step 100/150  loss=1.7647
+  Epoch 54: loss=1.7234, acc=0.5348, lr=0.01000
+  step 100/150  loss=1.7178
+  Epoch 55: loss=1.7175, acc=0.5377, lr=0.01000
+  step 100/150  loss=1.8602
+  Epoch 56: loss=1.7068, acc=0.5444, lr=0.01000
+    Val 1-shot L2N: 43.74%
+    Best so far: epoch 52, acc 43.86%
+  step 100/150  loss=1.6197
+  Epoch 57: loss=1.6946, acc=0.5446, lr=0.01000
+  step 100/150  loss=1.8142
+  Epoch 58: loss=1.6901, acc=0.5467, lr=0.01000
+  step 100/150  loss=1.7759
+  Epoch 59: loss=1.7075, acc=0.5423, lr=0.01000
+  step 100/150  loss=1.7418
+  Epoch 60: loss=1.6992, acc=0.5418, lr=0.01000
+    Val 1-shot L2N: 44.10%
+    Best so far: epoch 60, acc 44.10%
+  step 100/150  loss=1.6286
+  Epoch 61: loss=1.6961, acc=0.5442, lr=0.01000
+  step 100/150  loss=1.6313
+  Epoch 62: loss=1.6858, acc=0.5476, lr=0.01000
+  step 100/150  loss=1.6229
+  Epoch 63: loss=1.6856, acc=0.5466, lr=0.01000
+  step 100/150  loss=1.8536
+  Epoch 64: loss=1.6899, acc=0.5485, lr=0.01000
+    Val 1-shot L2N: 44.14%
+    Best so far: epoch 64, acc 44.14%
+  step 100/150  loss=1.7078
+  Epoch 65: loss=1.6837, acc=0.5479, lr=0.01000
+  step 100/150  loss=1.7347
+  Epoch 66: loss=1.6885, acc=0.5455, lr=0.01000
+  step 100/150  loss=1.6557
+  Epoch 67: loss=1.6620, acc=0.5518, lr=0.00100
+  step 100/150  loss=1.6421
+  Epoch 68: loss=1.6537, acc=0.5542, lr=0.00100
+    Val 1-shot L2N: 44.01%
+    Best so far: epoch 64, acc 44.14%
+  step 100/150  loss=1.7465
+  Epoch 69: loss=1.6574, acc=0.5565, lr=0.00100
+  step 100/150  loss=1.8214
+  Epoch 70: loss=1.6583, acc=0.5524, lr=0.00100
+  step 100/150  loss=1.7675
+  Epoch 71: loss=1.6427, acc=0.5573, lr=0.00100
+  step 100/150  loss=1.6373
+  Epoch 72: loss=1.6508, acc=0.5560, lr=0.00100
+    Val 1-shot L2N: 44.07%
+    Best so far: epoch 64, acc 44.14%
+  step 100/150  loss=1.5290
+  Epoch 73: loss=1.6507, acc=0.5565, lr=0.00100
+  step 100/150  loss=1.7012
+  Epoch 74: loss=1.6516, acc=0.5545, lr=0.00100
+  step 100/150  loss=1.5942
+  Epoch 75: loss=1.6391, acc=0.5569, lr=0.00100
+  step 100/150  loss=1.4361
+  Epoch 76: loss=1.6419, acc=0.5598, lr=0.00100
+    Val 1-shot L2N: 44.19%
+    Best so far: epoch 76, acc 44.19%
+  step 100/150  loss=1.5941
+  Epoch 77: loss=1.6385, acc=0.5589, lr=0.00100
+  step 100/150  loss=1.6415
+  Epoch 78: loss=1.6476, acc=0.5587, lr=0.00100
+  step 100/150  loss=1.6953
+  Epoch 79: loss=1.6393, acc=0.5579, lr=0.00100
+  step 100/150  loss=1.6180
+  Epoch 80: loss=1.6415, acc=0.5599, lr=0.00100
+    Val 1-shot L2N: 43.64%
+    Best so far: epoch 76, acc 44.19%
+  step 100/150  loss=1.7952
+  Epoch 81: loss=1.6409, acc=0.5593, lr=0.00100
+  step 100/150  loss=1.5975
+  Epoch 82: loss=1.6486, acc=0.5549, lr=0.00100
+  step 100/150  loss=1.8062
+  Epoch 83: loss=1.6474, acc=0.5561, lr=0.00100
+  step 100/150  loss=1.7797
+  Epoch 84: loss=1.6481, acc=0.5566, lr=0.00100
+    Val 1-shot L2N: 43.66%
+    Best so far: epoch 76, acc 44.19%
+  step 100/150  loss=1.6396
+  Epoch 85: loss=1.6435, acc=0.5570, lr=0.00100
+  step 100/150  loss=1.5777
+  Epoch 86: loss=1.6398, acc=0.5606, lr=0.00100
+  step 100/150  loss=1.4826
+  Epoch 87: loss=1.6414, acc=0.5600, lr=0.00100
+  step 100/150  loss=1.6979
+  Epoch 88: loss=1.6349, acc=0.5576, lr=0.00100
+    Val 1-shot L2N: 43.89%
+    Best so far: epoch 76, acc 44.19%
+  step 100/150  loss=1.8063
+  Epoch 89: loss=1.6452, acc=0.5594, lr=0.00100
+  step 100/150  loss=1.4001
+  Epoch 90: loss=1.6365, acc=0.5586, lr=0.00100
+  Training complete. Best epoch: 76. Time: 9.8 min
+  Evaluating conv4...
+Loaded checkpoint from epoch best
+  Evaluating UN 1-shot (10,000 episodes)...
+    UN 1-shot: 34.11 +/- 0.17%
+  Evaluating UN 5-shot (10,000 episodes)...
+    UN 5-shot: 62.19 +/- 0.17%
+  Evaluating L2N 1-shot (10,000 episodes)...
+    L2N 1-shot: 46.34 +/- 0.18%
+  Evaluating L2N 5-shot (10,000 episodes)...
+    L2N 5-shot: 64.52 +/- 0.17%
+  Evaluating CL2N 1-shot (10,000 episodes)...
+    CL2N 1-shot: 47.98 +/- 0.19%
+  Evaluating CL2N 5-shot (10,000 episodes)...
+    CL2N 5-shot: 65.12 +/- 0.17%
+
+  conv4 Results:
+    UN  1-shot: 34.11+/-0.17  5-shot: 62.19+/-0.17
+    L2N  1-shot: 46.34+/-0.18  5-shot: 64.52+/-0.17
+    CL2N  1-shot: 47.98+/-0.19  5-shot: 65.12+/-0.17
+
+
+============================================================
+MODEL: resnet10
+============================================================
+  Training resnet10 for 90 epochs...
+  Parameters: 4,930,944, Feature dim: 512
+  step 100/150  loss=3.4658
+  Epoch 1: loss=3.6340, acc=0.1135, lr=0.10000
+  step 100/150  loss=3.3259
+  Epoch 2: loss=3.2836, acc=0.1787, lr=0.10000
+  step 100/150  loss=3.0321
+  Epoch 3: loss=3.0450, acc=0.2314, lr=0.10000
+  step 100/150  loss=2.6572
+  Epoch 4: loss=2.8628, acc=0.2726, lr=0.10000
+    Val 1-shot L2N: 38.95%
+    Best so far: epoch 4, acc 38.95%
+  step 100/150  loss=2.8820
+  Epoch 5: loss=2.7040, acc=0.3016, lr=0.10000
+  step 100/150  loss=2.6185
+  Epoch 6: loss=2.5710, acc=0.3355, lr=0.10000
+  step 100/150  loss=2.3902
+  Epoch 7: loss=2.4440, acc=0.3643, lr=0.10000
+  step 100/150  loss=2.4928
+  Epoch 8: loss=2.3346, acc=0.3888, lr=0.10000
+    Val 1-shot L2N: 42.54%
+    Best so far: epoch 8, acc 42.54%
+  step 100/150  loss=2.2433
+  Epoch 9: loss=2.2313, acc=0.4113, lr=0.10000
+  step 100/150  loss=2.1962
+  Epoch 10: loss=2.1387, acc=0.4322, lr=0.10000
+  step 100/150  loss=1.9483
+  Epoch 11: loss=2.0537, acc=0.4536, lr=0.10000
+  step 100/150  loss=1.8394
+  Epoch 12: loss=1.9842, acc=0.4722, lr=0.10000
+    Val 1-shot L2N: 45.44%
+    Best so far: epoch 12, acc 45.44%
+  step 100/150  loss=2.0859
+  Epoch 13: loss=1.9065, acc=0.4907, lr=0.10000
+  step 100/150  loss=1.9811
+  Epoch 14: loss=1.8495, acc=0.5049, lr=0.10000
+  step 100/150  loss=2.0439
+  Epoch 15: loss=1.7836, acc=0.5169, lr=0.10000
+  step 100/150  loss=1.9283
+  Epoch 16: loss=1.7280, acc=0.5328, lr=0.10000
+    Val 1-shot L2N: 47.21%
+    Best so far: epoch 16, acc 47.21%
+  step 100/150  loss=1.7092
+  Epoch 17: loss=1.6797, acc=0.5433, lr=0.10000
+  step 100/150  loss=1.6287
+  Epoch 18: loss=1.6291, acc=0.5597, lr=0.10000
+  step 100/150  loss=1.5119
+  Epoch 19: loss=1.5767, acc=0.5702, lr=0.10000
+  step 100/150  loss=1.6167
+  Epoch 20: loss=1.5479, acc=0.5784, lr=0.10000
+    Val 1-shot L2N: 48.52%
+    Best so far: epoch 20, acc 48.52%
+  step 100/150  loss=1.3457
+  Epoch 21: loss=1.4962, acc=0.5926, lr=0.10000
+  step 100/150  loss=1.5660
+  Epoch 22: loss=1.4639, acc=0.5966, lr=0.10000
+  step 100/150  loss=1.3800
+  Epoch 23: loss=1.4194, acc=0.6095, lr=0.10000
+  step 100/150  loss=1.2714
+  Epoch 24: loss=1.3900, acc=0.6169, lr=0.10000
+    Val 1-shot L2N: 50.61%
+    Best so far: epoch 24, acc 50.61%
+  step 100/150  loss=1.3326
+  Epoch 25: loss=1.3495, acc=0.6284, lr=0.10000
+  step 100/150  loss=1.4339
+  Epoch 26: loss=1.3240, acc=0.6391, lr=0.10000
+  step 100/150  loss=1.1509
+  Epoch 27: loss=1.3030, acc=0.6411, lr=0.10000
+  step 100/150  loss=1.1209
+  Epoch 28: loss=1.2626, acc=0.6512, lr=0.10000
+    Val 1-shot L2N: 52.20%
+    Best so far: epoch 28, acc 52.20%
+  step 100/150  loss=1.0965
+  Epoch 29: loss=1.2241, acc=0.6608, lr=0.10000
+  step 100/150  loss=1.2131
+  Epoch 30: loss=1.2198, acc=0.6622, lr=0.10000
+  step 100/150  loss=1.1591
+  Epoch 31: loss=1.1856, acc=0.6704, lr=0.10000
+  step 100/150  loss=1.1765
+  Epoch 32: loss=1.1570, acc=0.6765, lr=0.10000
+    Val 1-shot L2N: 51.34%
+    Best so far: epoch 28, acc 52.20%
+  step 100/150  loss=1.1420
+  Epoch 33: loss=1.1500, acc=0.6802, lr=0.10000
+  step 100/150  loss=1.3195
+  Epoch 34: loss=1.1239, acc=0.6876, lr=0.10000
+  step 100/150  loss=1.0681
+  Epoch 35: loss=1.0989, acc=0.6948, lr=0.10000
+  step 100/150  loss=1.0414
+  Epoch 36: loss=1.0825, acc=0.6982, lr=0.10000
+    Val 1-shot L2N: 52.10%
+    Best so far: epoch 28, acc 52.20%
+  step 100/150  loss=1.0442
+  Epoch 37: loss=1.0741, acc=0.6995, lr=0.10000
+  step 100/150  loss=1.0188
+  Epoch 38: loss=1.0555, acc=0.7050, lr=0.10000
+  step 100/150  loss=0.9788
+  Epoch 39: loss=1.0369, acc=0.7109, lr=0.10000
+  step 100/150  loss=0.9416
+  Epoch 40: loss=1.0149, acc=0.7153, lr=0.10000
+    Val 1-shot L2N: 52.38%
+    Best so far: epoch 40, acc 52.38%
+  step 100/150  loss=1.1878
+  Epoch 41: loss=0.9940, acc=0.7212, lr=0.10000
+  step 100/150  loss=1.0468
+  Epoch 42: loss=0.9837, acc=0.7229, lr=0.10000
+  step 100/150  loss=1.0487
+  Epoch 43: loss=0.9705, acc=0.7287, lr=0.10000
+  step 100/150  loss=0.9826
+  Epoch 44: loss=0.9572, acc=0.7290, lr=0.10000
+    Val 1-shot L2N: 51.54%
+    Best so far: epoch 40, acc 52.38%
+  step 100/150  loss=0.8022
+  Epoch 45: loss=0.9382, acc=0.7377, lr=0.10000
+  step 100/150  loss=0.8165
+  Epoch 46: loss=0.7547, acc=0.7921, lr=0.01000
+  step 100/150  loss=0.6884
+  Epoch 47: loss=0.6844, acc=0.8135, lr=0.01000
+  step 100/150  loss=0.7816
+  Epoch 48: loss=0.6546, acc=0.8227, lr=0.01000
+    Val 1-shot L2N: 52.99%
+    Best so far: epoch 48, acc 52.99%
+  step 100/150  loss=0.6988
+  Epoch 49: loss=0.6527, acc=0.8232, lr=0.01000
+  step 100/150  loss=0.5122
+  Epoch 50: loss=0.6362, acc=0.8261, lr=0.01000
+  step 100/150  loss=0.4532
+  Epoch 51: loss=0.6216, acc=0.8323, lr=0.01000
+  step 100/150  loss=0.5717
+  Epoch 52: loss=0.6058, acc=0.8352, lr=0.01000
+    Val 1-shot L2N: 53.54%
+    Best so far: epoch 52, acc 53.54%
+  step 100/150  loss=0.5931
+  Epoch 53: loss=0.6008, acc=0.8379, lr=0.01000
+  step 100/150  loss=0.5333
+  Epoch 54: loss=0.5917, acc=0.8410, lr=0.01000
+  step 100/150  loss=0.5672
+  Epoch 55: loss=0.5823, acc=0.8424, lr=0.01000
+  step 100/150  loss=0.5937
+  Epoch 56: loss=0.5828, acc=0.8432, lr=0.01000
+    Val 1-shot L2N: 53.38%
+    Best so far: epoch 52, acc 53.54%
+  step 100/150  loss=0.6130
+  Epoch 57: loss=0.5906, acc=0.8422, lr=0.01000
+  step 100/150  loss=0.6331
+  Epoch 58: loss=0.5793, acc=0.8433, lr=0.01000
+  step 100/150  loss=0.5756
+  Epoch 59: loss=0.5652, acc=0.8469, lr=0.01000
+  step 100/150  loss=0.6703
+  Epoch 60: loss=0.5649, acc=0.8481, lr=0.01000
+    Val 1-shot L2N: 53.98%
+    Best so far: epoch 60, acc 53.98%
+  step 100/150  loss=0.4715
+  Epoch 61: loss=0.5526, acc=0.8480, lr=0.01000
+  step 100/150  loss=0.5606
+  Epoch 62: loss=0.5531, acc=0.8503, lr=0.01000
+  step 100/150  loss=0.5397
+  Epoch 63: loss=0.5391, acc=0.8550, lr=0.01000
+  step 100/150  loss=0.6663
+  Epoch 64: loss=0.5486, acc=0.8513, lr=0.01000
+    Val 1-shot L2N: 52.82%
+    Best so far: epoch 60, acc 53.98%
+  step 100/150  loss=0.5719
+  Epoch 65: loss=0.5397, acc=0.8535, lr=0.01000
+  step 100/150  loss=0.5989
+  Epoch 66: loss=0.5428, acc=0.8517, lr=0.01000
+  step 100/150  loss=0.6567
+  Epoch 67: loss=0.5198, acc=0.8592, lr=0.00100
+  step 100/150  loss=0.5112
+  Epoch 68: loss=0.5180, acc=0.8599, lr=0.00100
+    Val 1-shot L2N: 53.99%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.5109
+  Epoch 69: loss=0.5014, acc=0.8664, lr=0.00100
+  step 100/150  loss=0.4709
+  Epoch 70: loss=0.5118, acc=0.8636, lr=0.00100
+  step 100/150  loss=0.5746
+  Epoch 71: loss=0.5058, acc=0.8658, lr=0.00100
+  step 100/150  loss=0.5043
+  Epoch 72: loss=0.5007, acc=0.8678, lr=0.00100
+    Val 1-shot L2N: 53.33%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.4335
+  Epoch 73: loss=0.5000, acc=0.8662, lr=0.00100
+  step 100/150  loss=0.5717
+  Epoch 74: loss=0.4974, acc=0.8677, lr=0.00100
+  step 100/150  loss=0.4718
+  Epoch 75: loss=0.5058, acc=0.8658, lr=0.00100
+  step 100/150  loss=0.3761
+  Epoch 76: loss=0.5053, acc=0.8639, lr=0.00100
+    Val 1-shot L2N: 53.80%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.4923
+  Epoch 77: loss=0.5032, acc=0.8652, lr=0.00100
+  step 100/150  loss=0.5076
+  Epoch 78: loss=0.5027, acc=0.8638, lr=0.00100
+  step 100/150  loss=0.4712
+  Epoch 79: loss=0.5011, acc=0.8648, lr=0.00100
+  step 100/150  loss=0.4714
+  Epoch 80: loss=0.5026, acc=0.8660, lr=0.00100
+    Val 1-shot L2N: 53.72%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.4960
+  Epoch 81: loss=0.5018, acc=0.8645, lr=0.00100
+  step 100/150  loss=0.4104
+  Epoch 82: loss=0.5050, acc=0.8634, lr=0.00100
+  step 100/150  loss=0.5374
+  Epoch 83: loss=0.4916, acc=0.8683, lr=0.00100
+  step 100/150  loss=0.4506
+  Epoch 84: loss=0.4924, acc=0.8671, lr=0.00100
+    Val 1-shot L2N: 53.28%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.4527
+  Epoch 85: loss=0.4929, acc=0.8697, lr=0.00100
+  step 100/150  loss=0.5915
+  Epoch 86: loss=0.4955, acc=0.8682, lr=0.00100
+  step 100/150  loss=0.4197
+  Epoch 87: loss=0.5016, acc=0.8659, lr=0.00100
+  step 100/150  loss=0.5467
+  Epoch 88: loss=0.4884, acc=0.8710, lr=0.00100
+    Val 1-shot L2N: 53.63%
+    Best so far: epoch 68, acc 53.99%
+  step 100/150  loss=0.5378
+  Epoch 89: loss=0.4940, acc=0.8666, lr=0.00100
+  step 100/150  loss=0.4704
+  Epoch 90: loss=0.4943, acc=0.8665, lr=0.00100
+  Training complete. Best epoch: 68. Time: 25.2 min
+  Evaluating resnet10...
+Loaded checkpoint from epoch best
+  Evaluating UN 1-shot (10,000 episodes)...
+    UN 1-shot: 52.01 +/- 0.21%
+  Evaluating UN 5-shot (10,000 episodes)...
+    UN 5-shot: 74.39 +/- 0.16%
+  Evaluating L2N 1-shot (10,000 episodes)...
+    L2N 1-shot: 55.76 +/- 0.20%
+  Evaluating L2N 5-shot (10,000 episodes)...
+    L2N 5-shot: 75.77 +/- 0.15%
+  Evaluating CL2N 1-shot (10,000 episodes)...
+    CL2N 1-shot: 58.33 +/- 0.20%
+  Evaluating CL2N 5-shot (10,000 episodes)...
+    CL2N 5-shot: 75.75 +/- 0.16%
+
+  resnet10 Results:
+    UN  1-shot: 52.01+/-0.21  5-shot: 74.39+/-0.16
+    L2N  1-shot: 55.76+/-0.20  5-shot: 75.77+/-0.15
+    CL2N  1-shot: 58.33+/-0.20  5-shot: 75.75+/-0.16
+
+
+============================================================
+MODEL: resnet18
+============================================================
+  Training resnet18 for 90 epochs...
+  Parameters: 11,201,664, Feature dim: 512
+  step 100/150  loss=3.5074
+  Epoch 1: loss=3.7437, acc=0.0975, lr=0.10000
+  step 100/150  loss=3.3446
+  Epoch 2: loss=3.3932, acc=0.1558, lr=0.10000
+  step 100/150  loss=3.1063
+  Epoch 3: loss=3.1131, acc=0.2130, lr=0.10000
+  step 100/150  loss=2.7988
+  Epoch 4: loss=2.8555, acc=0.2695, lr=0.10000
+    Val 1-shot L2N: 39.42%
+    Best so far: epoch 4, acc 39.42%
+  step 100/150  loss=2.6244
+  Epoch 5: loss=2.6537, acc=0.3082, lr=0.10000
+  step 100/150  loss=2.4249
+  Epoch 6: loss=2.4767, acc=0.3520, lr=0.10000
+  step 100/150  loss=2.4547
+  Epoch 7: loss=2.3194, acc=0.3878, lr=0.10000
+  step 100/150  loss=2.1480
+  Epoch 8: loss=2.1777, acc=0.4217, lr=0.10000
+    Val 1-shot L2N: 47.81%
+    Best so far: epoch 8, acc 47.81%
+  step 100/150  loss=2.0078
+  Epoch 9: loss=2.0606, acc=0.4471, lr=0.10000
+  step 100/150  loss=1.9953
+  Epoch 10: loss=1.9437, acc=0.4803, lr=0.10000
+  step 100/150  loss=1.7535
+  Epoch 11: loss=1.8492, acc=0.5013, lr=0.10000
+  step 100/150  loss=1.7247
+  Epoch 12: loss=1.7787, acc=0.5197, lr=0.10000
+    Val 1-shot L2N: 49.35%
+    Best so far: epoch 12, acc 49.35%
+  step 100/150  loss=1.7903
+  Epoch 13: loss=1.6971, acc=0.5386, lr=0.10000
+  step 100/150  loss=1.7206
+  Epoch 14: loss=1.6324, acc=0.5571, lr=0.10000
+  step 100/150  loss=1.5515
+  Epoch 15: loss=1.5719, acc=0.5708, lr=0.10000
+  step 100/150  loss=1.3938
+  Epoch 16: loss=1.5086, acc=0.5864, lr=0.10000
+    Val 1-shot L2N: 51.55%
+    Best so far: epoch 16, acc 51.55%
+  step 100/150  loss=1.2888
+  Epoch 17: loss=1.4712, acc=0.5980, lr=0.10000
+  step 100/150  loss=1.1756
+  Epoch 18: loss=1.4097, acc=0.6138, lr=0.10000
+  step 100/150  loss=1.3610
+  Epoch 19: loss=1.3594, acc=0.6262, lr=0.10000
+  step 100/150  loss=1.2729
+  Epoch 20: loss=1.3206, acc=0.6339, lr=0.10000
+    Val 1-shot L2N: 55.72%
+    Best so far: epoch 20, acc 55.72%
+  step 100/150  loss=1.2626
+  Epoch 21: loss=1.2842, acc=0.6460, lr=0.10000
+  step 100/150  loss=1.2478
+  Epoch 22: loss=1.2437, acc=0.6544, lr=0.10000
+  step 100/150  loss=1.3315
+  Epoch 23: loss=1.2126, acc=0.6613, lr=0.10000
+  step 100/150  loss=1.3582
+  Epoch 24: loss=1.1790, acc=0.6720, lr=0.10000
+    Val 1-shot L2N: 54.21%
+    Best so far: epoch 20, acc 55.72%
+  step 100/150  loss=1.1235
+  Epoch 25: loss=1.1462, acc=0.6818, lr=0.10000
+  step 100/150  loss=1.1093
+  Epoch 26: loss=1.1158, acc=0.6886, lr=0.10000
+  step 100/150  loss=1.0558
+  Epoch 27: loss=1.0782, acc=0.6971, lr=0.10000
+  step 100/150  loss=0.9209
+  Epoch 28: loss=1.0518, acc=0.7029, lr=0.10000
+    Val 1-shot L2N: 55.64%
+    Best so far: epoch 20, acc 55.72%
+  step 100/150  loss=1.0440
+  Epoch 29: loss=1.0320, acc=0.7116, lr=0.10000
+  step 100/150  loss=1.1787
+  Epoch 30: loss=1.0009, acc=0.7167, lr=0.10000
+  step 100/150  loss=1.0840
+  Epoch 31: loss=0.9726, acc=0.7265, lr=0.10000
+  step 100/150  loss=0.9434
+  Epoch 32: loss=0.9582, acc=0.7299, lr=0.10000
+    Val 1-shot L2N: 53.66%
+    Best so far: epoch 20, acc 55.72%
+  step 100/150  loss=1.0327
+  Epoch 33: loss=0.9206, acc=0.7394, lr=0.10000
+  step 100/150  loss=0.6874
+  Epoch 34: loss=0.8993, acc=0.7465, lr=0.10000
+  step 100/150  loss=0.8461
+  Epoch 35: loss=0.8834, acc=0.7498, lr=0.10000
+  step 100/150  loss=0.7324
+  Epoch 36: loss=0.8544, acc=0.7590, lr=0.10000
+    Val 1-shot L2N: 54.67%
+    Best so far: epoch 20, acc 55.72%
+  step 100/150  loss=0.9143
+  Epoch 37: loss=0.8495, acc=0.7581, lr=0.10000
+  step 100/150  loss=0.7739
+  Epoch 38: loss=0.8264, acc=0.7649, lr=0.10000
+  step 100/150  loss=0.9241
+  Epoch 39: loss=0.8308, acc=0.7638, lr=0.10000
+  step 100/150  loss=0.8276
+  Epoch 40: loss=0.8061, acc=0.7707, lr=0.10000
+    Val 1-shot L2N: 57.60%
+    Best so far: epoch 40, acc 57.60%
+  step 100/150  loss=0.9222
+  Epoch 41: loss=0.7890, acc=0.7754, lr=0.10000
+  step 100/150  loss=0.9000
+  Epoch 42: loss=0.7552, acc=0.7841, lr=0.10000
+  step 100/150  loss=0.8105
+  Epoch 43: loss=0.7637, acc=0.7816, lr=0.10000
+  step 100/150  loss=0.7135
+  Epoch 44: loss=0.7432, acc=0.7891, lr=0.10000
+    Val 1-shot L2N: 56.02%
+    Best so far: epoch 40, acc 57.60%
+  step 100/150  loss=0.6884
+  Epoch 45: loss=0.7298, acc=0.7930, lr=0.10000
+  step 100/150  loss=0.5820
+  Epoch 46: loss=0.5692, acc=0.8407, lr=0.01000
+  step 100/150  loss=0.4674
+  Epoch 47: loss=0.4904, acc=0.8680, lr=0.01000
+  step 100/150  loss=0.4194
+  Epoch 48: loss=0.4722, acc=0.8718, lr=0.01000
+    Val 1-shot L2N: 58.09%
+    Best so far: epoch 48, acc 58.09%
+  step 100/150  loss=0.4356
+  Epoch 49: loss=0.4494, acc=0.8789, lr=0.01000
+  step 100/150  loss=0.5028
+  Epoch 50: loss=0.4278, acc=0.8833, lr=0.01000
+  step 100/150  loss=0.4237
+  Epoch 51: loss=0.4243, acc=0.8876, lr=0.01000
+  step 100/150  loss=0.4635
+  Epoch 52: loss=0.4143, acc=0.8899, lr=0.01000
+    Val 1-shot L2N: 59.01%
+    Best so far: epoch 52, acc 59.01%
+  step 100/150  loss=0.5309
+  Epoch 53: loss=0.4162, acc=0.8891, lr=0.01000
+  step 100/150  loss=0.5035
+  Epoch 54: loss=0.4042, acc=0.8914, lr=0.01000
+  step 100/150  loss=0.2965
+  Epoch 55: loss=0.3976, acc=0.8940, lr=0.01000
+  step 100/150  loss=0.3334
+  Epoch 56: loss=0.3930, acc=0.8950, lr=0.01000
+    Val 1-shot L2N: 60.09%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.3495
+  Epoch 57: loss=0.3809, acc=0.9007, lr=0.01000
+  step 100/150  loss=0.4274
+  Epoch 58: loss=0.3849, acc=0.8999, lr=0.01000
+  step 100/150  loss=0.3278
+  Epoch 59: loss=0.3881, acc=0.8958, lr=0.01000
+  step 100/150  loss=0.4724
+  Epoch 60: loss=0.3740, acc=0.8996, lr=0.01000
+    Val 1-shot L2N: 58.49%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.3291
+  Epoch 61: loss=0.3681, acc=0.9011, lr=0.01000
+  step 100/150  loss=0.4198
+  Epoch 62: loss=0.3684, acc=0.9015, lr=0.01000
+  step 100/150  loss=0.3819
+  Epoch 63: loss=0.3605, acc=0.9031, lr=0.01000
+  step 100/150  loss=0.4219
+  Epoch 64: loss=0.3580, acc=0.9058, lr=0.01000
+    Val 1-shot L2N: 57.14%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.4209
+  Epoch 65: loss=0.3492, acc=0.9062, lr=0.01000
+  step 100/150  loss=0.3213
+  Epoch 66: loss=0.3530, acc=0.9038, lr=0.01000
+  step 100/150  loss=0.4029
+  Epoch 67: loss=0.3430, acc=0.9084, lr=0.00100
+  step 100/150  loss=0.4788
+  Epoch 68: loss=0.3361, acc=0.9110, lr=0.00100
+    Val 1-shot L2N: 58.53%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.3272
+  Epoch 69: loss=0.3363, acc=0.9090, lr=0.00100
+  step 100/150  loss=0.3064
+  Epoch 70: loss=0.3410, acc=0.9096, lr=0.00100
+  step 100/150  loss=0.3690
+  Epoch 71: loss=0.3330, acc=0.9116, lr=0.00100
+  step 100/150  loss=0.2808
+  Epoch 72: loss=0.3339, acc=0.9114, lr=0.00100
+    Val 1-shot L2N: 57.50%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.2851
+  Epoch 73: loss=0.3269, acc=0.9141, lr=0.00100
+  step 100/150  loss=0.2712
+  Epoch 74: loss=0.3244, acc=0.9147, lr=0.00100
+  step 100/150  loss=0.2968
+  Epoch 75: loss=0.3269, acc=0.9154, lr=0.00100
+  step 100/150  loss=0.3284
+  Epoch 76: loss=0.3211, acc=0.9153, lr=0.00100
+    Val 1-shot L2N: 59.08%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.2661
+  Epoch 77: loss=0.3260, acc=0.9136, lr=0.00100
+  step 100/150  loss=0.3473
+  Epoch 78: loss=0.3238, acc=0.9146, lr=0.00100
+  step 100/150  loss=0.3108
+  Epoch 79: loss=0.3247, acc=0.9136, lr=0.00100
+  step 100/150  loss=0.4346
+  Epoch 80: loss=0.3294, acc=0.9130, lr=0.00100
+    Val 1-shot L2N: 58.70%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.2659
+  Epoch 81: loss=0.3189, acc=0.9136, lr=0.00100
+  step 100/150  loss=0.3016
+  Epoch 82: loss=0.3165, acc=0.9162, lr=0.00100
+  step 100/150  loss=0.4261
+  Epoch 83: loss=0.3253, acc=0.9138, lr=0.00100
+  step 100/150  loss=0.3439
+  Epoch 84: loss=0.3155, acc=0.9164, lr=0.00100
+    Val 1-shot L2N: 59.63%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.2076
+  Epoch 85: loss=0.3276, acc=0.9141, lr=0.00100
+  step 100/150  loss=0.2815
+  Epoch 86: loss=0.3241, acc=0.9148, lr=0.00100
+  step 100/150  loss=0.3229
+  Epoch 87: loss=0.3223, acc=0.9149, lr=0.00100
+  step 100/150  loss=0.3499
+  Epoch 88: loss=0.3199, acc=0.9150, lr=0.00100
+    Val 1-shot L2N: 58.97%
+    Best so far: epoch 56, acc 60.09%
+  step 100/150  loss=0.3116
+  Epoch 89: loss=0.3245, acc=0.9132, lr=0.00100
+  step 100/150  loss=0.3134
+  Epoch 90: loss=0.3173, acc=0.9159, lr=0.00100
+  Training complete. Best epoch: 56. Time: 43.2 min
+  Evaluating resnet18...
+Loaded checkpoint from epoch best
+  Evaluating UN 1-shot (10,000 episodes)...
+    UN 1-shot: 53.90 +/- 0.21%
+  Evaluating UN 5-shot (10,000 episodes)...
+    UN 5-shot: 76.47 +/- 0.15%
+  Evaluating L2N 1-shot (10,000 episodes)...
+    L2N 1-shot: 58.05 +/- 0.20%
+  Evaluating L2N 5-shot (10,000 episodes)...
+    L2N 5-shot: 77.59 +/- 0.15%
+  Evaluating CL2N 1-shot (10,000 episodes)...
+    CL2N 1-shot: 60.34 +/- 0.20%
+  Evaluating CL2N 5-shot (10,000 episodes)...
+    CL2N 5-shot: 77.61 +/- 0.15%
+
+  resnet18 Results:
+    UN  1-shot: 53.90+/-0.21  5-shot: 76.47+/-0.15
+    L2N  1-shot: 58.05+/-0.20  5-shot: 77.59+/-0.15
+    CL2N  1-shot: 60.34+/-0.20  5-shot: 77.61+/-0.15
+
+
+============================================================
+MODEL: densenet121
+============================================================
+  Copied existing DenseNet checkpoint from checkpoints_256
+  Checkpoint exists at /content/drive/MyDrive/SimpleShot/SimpleShot Reproduce_WOODY_CHANG/checkpoints_densenet121/epoch_best.pth, skipping training.
+  Evaluating densenet121...
+Loaded checkpoint from epoch best
+  Evaluating UN 1-shot (10,000 episodes)...
+    UN 1-shot: 55.40 +/- 0.20%
+  Evaluating UN 5-shot (10,000 episodes)...
+    UN 5-shot: 78.17 +/- 0.15%
+  Evaluating L2N 1-shot (10,000 episodes)...
+    L2N 1-shot: 59.64 +/- 0.20%
+  Evaluating L2N 5-shot (10,000 episodes)...
+    L2N 5-shot: 78.81 +/- 0.14%
+  Evaluating CL2N 1-shot (10,000 episodes)...
+    CL2N 1-shot: 61.94 +/- 0.20%
+  Evaluating CL2N 5-shot (10,000 episodes)...
+    CL2N 5-shot: 79.08 +/- 0.15%
+
+  densenet121 Results:
+    UN  1-shot: 55.40+/-0.20  5-shot: 78.17+/-0.15
+    L2N  1-shot: 59.64+/-0.20  5-shot: 78.81+/-0.14
+    CL2N  1-shot: 61.94+/-0.20  5-shot: 79.08+/-0.15
+
+
+All models done!
