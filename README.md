@@ -14,7 +14,7 @@ Cornell University
 
 ## Chosen Result
 
-We target **Table 1** of the paper: five-way one-shot and five-shot accuracy on miniImageNet across multiple backbones (Conv-4, ResNet-10, ResNet-18, DenseNet-121) with three feature transformations (UN, L2N, CL2N). This table is the paper's central empirical claim — that simple feature transformations on standard cross-entropy features can match complex meta-learning methods for few-shot learning. Reproducing it validates the paper's core thesis across architectures of varying capacity.
+We target **Table 1** of the paper: five-way one-shot and five-shot accuracy on miniImageNet across multiple backbones (Conv-4, ResNet-10, ResNet-18, DenseNet-121) with three feature transformations (UN, L2N, CL2N). This table is the paper's central empirical claim that simple feature transformations on standard cross-entropy features can match complex meta-learning methods for few-shot learning. Reproducing it validates the paper's core thesis across architectures of varying capacity.
 
 ## GitHub Contents
 
